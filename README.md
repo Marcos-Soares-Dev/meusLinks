@@ -1,12 +1,34 @@
-# React + Vite
+Olá, sou Marcos Soares!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Front-end Developer apaixonado por criar experiências web incríveis. Com habilidades em React, JavaScript e CSS, estou sempre procurando novas maneiras de melhorar a usabilidade e a acessibilidade das aplicações web.
 
-Currently, two official plugins are available:
+Este é um projeto pessoal de um desenvolvedor front-end, criado com React e Vite. O objetivo é criar uma página web que exiba informações sobre o desenvolvedor, incluindo uma foto de perfil, nome, especialidade, descrição e links para redes sociais.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tecnologias utilizadas:
 
-## Expanding the ESLint configuration
+React: biblioteca JavaScript para criar interfaces de usuário
+Vite: ferramenta de build e desenvolvimento para React
+Tailwind CSS: framework de CSS para estilizar a página
+Lucide React: biblioteca de ícones para React
+React Icons: biblioteca de ícones para React
+ESLint: ferramenta de linting para JavaScript
+Estrutura do projeto:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+src/: pasta principal do projeto
+components/: pasta para componentes React
+PerfilCard.jsx: componente para exibir informações do desenvolvedor
+Button.jsx: componente para exibir botões
+sections/: pasta para seções da página
+Root.jsx: seção principal da página
+App.jsx: componente principal da aplicação
+main.jsx: arquivo principal da aplicação
+public/: pasta para arquivos estáticos
+index.html: arquivo HTML principal da aplicação
+tailwind.config.js: arquivo de configuração do Tailwind CSS
+vite.config.js: arquivo de configuração do Vite
+eslint.config.js: arquivo de configuração do ESLint
+Funcionalidades:
+
+Exibe informações do desenvolvedor, incluindo foto de perfil, nome, especialidade, descrição e links para redes sociais
+Utiliza animações e efeitos de transição para melhorar a experiência do usuário
+Utiliza Tailwind CSS para estilizar a página e criar um layout responsivo
