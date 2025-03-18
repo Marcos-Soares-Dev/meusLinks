@@ -1,5 +1,4 @@
-import React from 'react'
-import Button from './Button'
+
 
 export default function PerfilCard({ imageUrl, specialistName, specialty, description, location, children }) {
   return (

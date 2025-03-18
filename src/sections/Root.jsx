@@ -1,8 +1,7 @@
-import PerfilCard from "../components/perfilCard";
+
 import specialistPhoto from "../assets/edi.jpg";
 import Button from "../components/Button";
 import bgVideo from "../assets/videoBackground.mp4"; // Importando o vídeo
-import { LucideAArrowDown } from "lucide-react";
 import { FaBriefcase, FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Root() {
