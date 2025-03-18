@@ -28,19 +28,22 @@ export default function Root() {
           imageUrl={specialistPhoto} 
           specialistName="Marcos Soares" 
           specialty="Front End Developer" 
-          location="Fortaleza-CE"
+          description="Estudante de programação☕
+          Apaixonado por tecnologia e inovação,
+          Transformando ideias em código🚀"
+          location="Fortaleza - CE"
         >
-          <Button urlLink={"https://github.com/marcossoares"} >
+          <Button urlLink={"https://github.com/Marcos-Soares-Dev"} >
           <FaLinkedin />
           Linkedin
           </Button>
 
-          <Button urlLink={"https://github.com/marcossoares"} >
+          <Button urlLink={"https://github.com/Marcos-Soares-Dev"} >
           <FaBriefcase />
           Portfólio 
           </Button>
 
-          <Button urlLink={"https://github.com/marcossoares"} >
+          <Button urlLink={"https://github.com/Marcos-Soares-Dev"} >
           <FaGithub />
           GitHub
           </Button>
