@@ -5,6 +5,7 @@ import bgVideo from "../assets/videoBackground.mp4"; // Importando o vídeo
 import { FaBriefcase, FaGithub, FaLinkedin } from "react-icons/fa";
 import PerfilCard from "../components/PerfilCard";
 import Button from "../components/Button";
+import img from "../assets/edi.jpg";
 
 export default function Root() {
   return (
@@ -25,7 +26,7 @@ export default function Root() {
 
       
       <div className="relative z-10">
-        <PerfilCard imageUrl={"src/assets/edi.jpg"} specialistName={"Marcos Soares"} specialty={"Front End Developer"} description={"Estudante de programação ☕ | Apaixonado por tecnologia e inovação | Transformando ideias em código 🚀"} location={"Fortaleza - CE"}>
+        <PerfilCard imageUrl={img} specialistName={"Marcos Soares"} specialty={"Front End Developer"} description={"Estudante de programação ☕ | Apaixonado por tecnologia e inovação | Transformando ideias em código 🚀"} location={"Fortaleza - CE"}>
 
           <Button urlLink={"https://github.com/Marcos-Soares-Dev"}>
             <FaLinkedin />
