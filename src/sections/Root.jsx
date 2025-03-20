@@ -9,7 +9,7 @@ import img from "../assets/edi.jpg";
 
 export default function Root() {
   return (
-    <section className="relative w-full min-h-screen flex flex-col items-center justify-center gap-4 text-white overflow-hidden">
+    <section className="relative w-full min-h-screen flex flex-col items-center py-8 px-4 gap-4 text-white overflow-hidden">
       
       
       <video 
