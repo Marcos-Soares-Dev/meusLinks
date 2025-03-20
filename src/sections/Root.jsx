@@ -1,8 +1,10 @@
 
-import specialistPhoto from "../assets/edi.jpg";
-import Button from "../components/Button";
+
+
 import bgVideo from "../assets/videoBackground.mp4"; // Importando o vídeo
 import { FaBriefcase, FaGithub, FaLinkedin } from "react-icons/fa";
+import PerfilCard from "../components/PerfilCard";
+import Button from "../components/Button";
 
 export default function Root() {
   return (
@@ -23,28 +25,21 @@ export default function Root() {
 
       
       <div className="relative z-10">
-        <PerfilCard 
-          imageUrl={specialistPhoto} 
-          specialistName="Marcos Soares" 
-          specialty="Front End Developer" 
-          description="Estudante de programação☕
-          Apaixonado por tecnologia e inovação,
-          Transformando ideias em código🚀"
-          location="Fortaleza - CE"
-        >
-          <Button urlLink={"https://github.com/Marcos-Soares-Dev"} >
-          <FaLinkedin />
-          Linkedin
+        <PerfilCard imageUrl={"src/assets/edi.jpg"} specialistName={"Marcos Soares"} specialty={"Front End Developer"} description={"Estudante de programação ☕ | Apaixonado por tecnologia e inovação | Transformando ideias em código 🚀"} location={"Fortaleza - CE"}>
+
+          <Button urlLink={"https://github.com/Marcos-Soares-Dev"}>
+            <FaLinkedin />
+            Linkedin
           </Button>
 
-          <Button urlLink={"https://github.com/Marcos-Soares-Dev"} >
-          <FaBriefcase />
-          Portfólio 
+          <Button urlLink={"https://github.com/Marcos-Soares-Dev"}>
+            <FaGithub />
+            GitHub
           </Button>
 
-          <Button urlLink={"https://github.com/Marcos-Soares-Dev"} >
-          <FaGithub />
-          GitHub
+          <Button urlLink={"https://github.com/Marcos-Soares-Dev"}>
+            <FaBriefcase />
+            Portifólio
           </Button>
         </PerfilCard>
       </div>
